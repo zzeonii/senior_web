@@ -816,13 +816,13 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 		width: 100%;
 		height: 800px;
 	}
 
 		table tbody tr {
-			border: solid 1px #fff;
+			border: solid 0px #fff;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -832,14 +832,16 @@ input, select, textarea {
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			/* padding: 0.75em 0.75em; */
+			padding: 0;
+
 		}
 
 		table th {
 			color: #fff;
 			font-size: 0.9em;
 			font-weight: 600;
-			padding: 0 0.75em 0.75em 0.75em;
+			padding: 0 0 0 0;
 			text-align: left;
 		}
 
@@ -856,7 +858,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px #fff;
+				border: solid 0px #fff;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
