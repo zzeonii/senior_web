@@ -130,7 +130,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 2em 2em 2em 2em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -668,8 +668,7 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 2em 2em 0;
-			top: 0.25em;
+			margin: 0 0 2em 0;
 		}
 
 		.image.right {
@@ -679,7 +678,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
@@ -1605,7 +1604,7 @@ input, select, textarea {
 
 
 				.wrapper.style6 {
-					background-color: #0c350994;
+					background-color: #141414;
 					color: #c8ece9;
 				}
 		
